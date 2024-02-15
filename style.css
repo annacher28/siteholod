@@ -21,14 +21,14 @@ h3  {
 }
 .header{
     width: 100%;
-    padding: 10px;
+    padding: 0px;
     color: rgb(142, 142, 142);
     background-color: rgb(65, 63, 63);
     display: flex;
 }
 
 .header img{
-    width: 141px;
+    width: 120px;
     height: 40px;
    margin: 0 auto;
 }
@@ -39,4 +39,8 @@ h3  {
     display: flex;
     justify-content: center;
     align-items: center;
+    grid-row-gap:20px ;
+    font-size: 14px;
+    flex-direction: column;
+
 }
